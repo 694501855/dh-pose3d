@@ -8,7 +8,7 @@ from modules.api import api
 import cv2
 import numpy as np
 
-from cvzone.PoseModule import PoseDetector
+
 
 detector = PoseDetector()
 def pose_api(_, app: FastAPI):
